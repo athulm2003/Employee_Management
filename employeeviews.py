@@ -101,14 +101,14 @@ class EmployeeManager(dbconnect):
 
 
 
-connection_instance=dbconnect()
-print(connection_instance.get_connected())
-
-employee_instance=EmployeeManager()
-#employee_instance.post(name="Athul",place="Kollam",mobile="8667876353",email="athul@gmail.com",department="python developer",salary=50000,joined_date=datetime.today())
-#employee_instance.post(name="Deepu",place="Pune",mobile="9898676325",email="deepu@gmail.com",department="Senior Chef",salary=100000,joined_date=datetime.today())
-#employee_instance.post(name="Achu",place="Kayamkulam",mobile="9087866353",email="achu@gmail.com",department="software tester",salary=30000,joined_date=datetime.today())
-employee_instance.get()
-employee_instance.retrieve(2)
-#employee_instance.delete(3)
-employee_instance.put(id=2,salary=80000,department="junior chef")
+# connection_instance=dbconnect()
+# print(connection_instance.get_connected())
+#
+# employee_instance=EmployeeManager()
+# #employee_instance.post(name="Athul",place="Kollam",mobile="8667876353",email="athul@gmail.com",department="python developer",salary=50000,joined_date=datetime.today())
+# #employee_instance.post(name="Deepu",place="Pune",mobile="9898676325",email="deepu@gmail.com",department="Senior Chef",salary=100000,joined_date=datetime.today())
+# #employee_instance.post(name="Achu",place="Kayamkulam",mobile="9087866353",email="achu@gmail.com",department="software tester",salary=30000,joined_date=datetime.today())
+# employee_instance.get()
+# employee_instance.retrieve(2)
+# #employee_instance.delete(3)
+# employee_instance.put(id=2,salary=80000,department="junior chef")
